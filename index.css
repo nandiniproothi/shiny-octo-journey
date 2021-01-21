@@ -6,7 +6,8 @@ body{
 }
 
 .col{
-    
+    margin-left: -5%;
+    text-align: center;
 }
 
 .row{
