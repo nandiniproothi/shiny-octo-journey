@@ -1,0 +1,39 @@
+body{
+    font-family: 'Inconsolata', monospace !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.col{
+    text-align: center;
+}
+
+.row{
+    margin-top: 50%;
+}
+@keyframes animButton{
+    0%{
+        width: 135%;
+    }
+    100%{
+        width: 150%;
+    }
+}
+
+.normalButton{
+    white-space: nowrap;
+    height: auto;
+    width: 135%;
+    background-color: transparent;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.normalButton:hover{ 
+    animation: animButton 0.5s forwards;
+    animation-delay: 0ms;
+}
